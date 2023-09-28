@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Basics</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="apps-grid">
+      <div class="apps">
+        <p>Pick a color for your background!</p>
+        <input
+          type="color"
+          name="color-picker"
+          id="color-picker"
+          value="#f9f9f9"
+        />
+      </div>
+      <div class="apps">
+        <button id="quote-btn">Get a random quote!</button>
+        <p id="quote-text"></p>
+      </div>
+      <div class="apps">
+        <p>Count characters</p>
+        <span id="character-count">0</span>
+        <textarea
+          name="count-chars"
+          id="textarea"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </div>
+      <div class="apps">
+        <p>Palindrome checker</p>
+        <input
+          type="text"
+          name="palindrome-input"
+          id="palindrome-input"
+          value=""
+          hello
+        />
+        <button id="palindrome-btn">
+          Check whether the word is a palindrome
+        </button>
+        <p id="palindrome-result"></p>
+      </div>
+      <div class="apps">
+        <p>Anagram check</p>
+        <input
+          type="text"
+          name="string-one"
+          id="string-one"
+          placeholder="Enter first string!"
+        />
+        <input
+          type="text"
+          name="string-two"
+          id="string-two"
+          placeholder="Enter second string!"
+        />
+        <button id="anagram-btn">Check Anagram!</button>
+        <p id="anagram-result"></p>
+      </div>
+      <div class="apps">
+        <p>Search List</p>
+        <input
+          type="text"
+          name="search-list"
+          id="search-list"
+          placeholder="Search list..."
+        />
+        <ul id="list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>TYPESCRIPT</li>
+          <li>JAVA</li>
+          <li>REACT</li>
+        </ul>
+      </div>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
